@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App snapshot renders 1`] = `
+<div>
+  <h1>
+    My Counter
+  </h1>
+  <h2>
+    Waffles
+  </h2>
+  <p>
+    0
+  </p>
+  <button
+    onClick={[Function]}
+    type="button"
+  >
+    Increment
+  </button>
+  <button
+    onClick={[Function]}
+    type="button"
+  >
+    Decrement
+  </button>
+</div>
+`;
+
+exports[`App snapshot renders 2`] = `
+<p>
+  2
+</p>
+`;

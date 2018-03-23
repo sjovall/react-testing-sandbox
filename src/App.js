@@ -16,6 +16,7 @@ class App extends Component {
         return (
             <div>
                 <h1>My Counter</h1>
+                <h2>Waffles</h2>
                 <Counter counter={counter}/>
 
                 <button type="button" onClick={this.onIncrement}>
