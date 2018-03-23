@@ -35,11 +35,11 @@ export const Counter = ({counter}) => (
     <p>{counter}</p>
 );
 
-const doIncrement = (prevState) => ({
+export const doIncrement = (prevState) => ({
     counter: prevState.counter + 1,
 });
 
-const doDecrement = (prevState) => ({
+export const doDecrement = (prevState) => ({
     counter: prevState.counter - 1,
 });
 
